@@ -1,0 +1,23 @@
+.contact-container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-holder{
+    height: 80vh;
+    width: 95%;
+    background-color: white;
+    display: flex;
+}
+
+.profile-icons{
+    height: 5vh;
+}
+
+.direct-contact-header{
+    font-size: 32px;
+    font-weight: bold;
+}

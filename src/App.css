@@ -28,11 +28,82 @@
   color: #61dafb;
 }
 
+.overall-app{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+#page{
+  position: relative;
+  width: 100%;
+}
+
+#animate{
+  position: relative;
+  width: 100%;
+}
+
+.section-header{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #055C9D;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  width: 95%;
+  border-radius: 2%;
+  box-shadow: 2.5px 5px rgb(0,0,0, 0.1);
+}
+
+.section-header-blue{
+  color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #055C9D;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  text-align: center;
+
+  width: 95%;
+  border-radius: 2%;
+  box-shadow: 2.5px 5px rgb(0,0,0, 0.1);
+}
+
+.section-seperator{
+  width: 20%;
+  margin-inline-start: 3px;
+}
+
+@media (max-width: 738px) {
+  .section-header{
+    font-size: 30px;
+    margin-top: 15vh;
+    border-radius: 3%;
+  }
+  .section-header-blue{
+    font-size: 30px;
+    margin-top: 15vh;
+    border-radius: 3%;
   }
 }
