@@ -90,13 +90,15 @@
     width: 25%;
     display: flex;
     align-items: flex-start ;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .skill-icon{
-    height: 35%;
+    height: 75px;
+    width: auto;
     animation: fadeInAnimation ease 0.7s;
     margin-top: 10%;
+    margin-right: 6px;
     
 }
 
